@@ -235,9 +235,6 @@ margin:auto;
     line-height: 1.8;
     color: #777;
 }   
-i {
-    color: var(--main-color);
-}
 /* end features */
 /* start Services section */
 .service {
@@ -254,9 +251,10 @@ i {
 .services-content div {
 max-width: 400px;
 }
-.services-content i {
+.services-content img {
     display: inline;
-    margin-right: 30px;
+    margin-right: 20px;
+    margin-bottom: -10px;
 }
 .services-content h3 {
     display: inline;
@@ -413,8 +411,8 @@ max-width: 400px;
 .contact .contact-content .social {
     margin-top: 15px;
 }
-.contact .contact-content i {
-    color: var(--secondary-color);
+.contact .contact-content .social img {
+    margin-left: 5px;
 }
 /* end contact */
 .footer {
